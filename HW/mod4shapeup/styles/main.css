@@ -1,0 +1,66 @@
+/* styles for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styles for the header */
+header img {
+    float: left;
+}
+header h2 {
+    font-size: 200%;
+    text-indent: 30px;
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 4px steelblue;
+}
+
+header h3 {
+    font-size: 150%;
+    text-indent: 30px;
+}
+
+/* section styles */
+
+section h1 {
+    font-size: 160%;
+}
+
+section h2 {
+    font-size: 130%;
+}
+
+section h3 {
+    font-size: 110%;
+}
+
+section p {
+    font-size: 100%;
+}
+
+section a:link, section a:visited {
+    color: #800000;
+}
+
+section a:focus, section a:hover {
+    color: steelblue;
+    font-weight: bold;
+}
+
+aside a:link, aside a:visited {
+    color: steelblue;
+    font-weight: bold;
+}
+
+aside a:focus, aside a:hover {
+    color: #800000;
+}
+
+li {
+    line-height: 1.5;
+}
+
+footer p {
+    font-size: 85%;
+    text-align: center;
+} 
