@@ -1,0 +1,137 @@
+/* styles for the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200 px;
+    border: 2px solid steelblue;
+    box-shadow: 0 4px 4px 4px black;
+    margin: auto;
+}
+
+/* styles for the header */
+header {
+    background-image: -webkit-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: -moz-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: -o-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    border-bottom: 2px solid steelblue;
+}
+
+
+header img {
+    float: left;
+}
+
+header h2 {
+    font-size: 200%;
+    text-indent: 30px;
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 2px 2px 4px steelblue;
+}
+
+header h3 {
+    font-size: 150%;
+    text-indent: 30px;
+}
+
+main {
+    padding: 0 30px 10px;
+}
+
+/* section styles */
+
+section {
+    width: 550px;
+    float: left;
+    padding: 25px 30px;
+}
+
+section h1 {
+    font-size: 160%;
+}
+
+section h2 {
+    font-size: 130%;
+}
+
+section h3 {
+    font-size: 110%;
+}
+
+section p {
+    font-size: 100%;
+}
+
+section a:link, section a:visited {
+    color: #800000;
+}
+
+section a:hover, section a:focus {
+    color: steelblue;
+}
+
+
+
+/*styles for the left sidebar */
+#sidebarA {
+    float: left;
+    width: 240px;
+    padding: 25px 0 0 30px;
+}
+
+#sidebarA h2 {
+    font-size: 130%;
+    color: maroon;
+    margin-bottom: 8px;
+}
+
+#sidebarA ul {
+    line-height: 1.5;
+    margin: 0;
+}
+
+#sidebarA a:link, #sidebarA a:visited {
+    color: steelblue;
+}
+
+#sidebarA a:hover, #sidebarA a:focus {
+    color: maroon;
+}
+
+/*styles for the right sidebar */
+
+#sidebarB {
+    float: right;
+    width: 290px;
+    padding: 25px 30px 0 0;
+}
+
+#sidebarB h2 {
+    font-size: 130%;
+    color: maroon;
+    margin-bottom: .5em;
+}
+
+#sidebarB h3 {
+    font-size: 110%;
+    margin-bottom: .3em;
+}
+
+#sidebarB p {
+    margin-bottom: .7em;
+}
+
+
+/* styles for the footer */
+
+footer {
+    clear: both;
+    padding: 15px 30px;
+    background-color: steelblue;
+}
+
+footer p {
+    font-size: 85%;
+    text-align: center;
+    color: white;
+} 
