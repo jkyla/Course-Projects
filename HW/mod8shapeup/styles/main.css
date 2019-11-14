@@ -1,0 +1,165 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    border: 3px solid steelblue;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+
+/* the styles for the header */
+header {
+    background-image: -webkit-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: -moz-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: -o-linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%);
+    padding: 15px 30px; 
+    border-bottom: 3px solid steelblue; 
+} 
+header img { 
+	float: left; 
+} 
+header h2 {
+	font-size: 250%;
+	font-style: italic;
+	color: steelblue;
+	text-indent: 45px;
+    text-shadow: 3px 3px 3px steelblue;
+    margin-bottom: .3em;
+}
+
+header h3{
+	font-size: 150%;
+    text-indent: 45px;   
+    padding-bottom: .75em;
+}
+
+/* styles for the navigation menu */
+#nav_menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu ul li {
+    float: left;
+}
+
+#nav_menu ul li a {
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
+
+#nav_menu .current {
+    color: black;
+}
+/* styles for subnav menu */
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+    float: none;
+}
+
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#nav_menu ul li a:focus, #nav_menu ul li a:hover {
+    background-color: lightsteelblue;
+}
+
+.shadow {
+    text-shadow: 3px 2px 3px steelblue;
+}
+
+/* the styles for the main h1 */
+section h1 {
+    font-size: 150%;
+}
+
+/* the styles for the main h2 */
+section h2 {
+    font-size: 130%;
+}
+
+/* the styles for the main h3 */
+section h3 {
+    color: maroon;
+    font-size: 110%;
+    margin-bottom: .4em;
+}
+
+/* the styles for the section */
+section {
+    width: 545px;
+    float: right;
+    /*padding: 25px 30px;*/
+}
+
+section a:link, a:visited { 
+    color: maroon;
+}
+section a:focus, a:hover {
+    color: steelblue;
+}
+
+/* the styles for the left sidebar */
+aside {
+    float: left;
+    width: 245px;
+    padding: 5px 10px 25px 30px;
+}
+aside h2 {
+	font-size: 130%;    
+	color: maroon;
+    margin-bottom: 8px;
+}
+
+aside a:link, a:visited { 
+    color: steelblue;
+    font-weight: bold;
+}
+aside a:focus a:hover {
+    color: maroon;
+}
+
+aside ul {
+    line-height: 1.4em;
+    margin: 0;
+    padding-left: 16px;
+}
+
+aside ul li a {
+    text-decoration: none;
+}
+
+/* the styles for the footer */
+footer { 
+	background-color: steelblue;
+    border-top: 3px solid steelblue;
+    border-bottom: 3px solid steelblue;
+    clear: both;
+} 
+footer p {
+	text-align: center;
+    font-size: 85%;
+    color: white;    
+}
