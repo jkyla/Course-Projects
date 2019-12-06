@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Living Well</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hero">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="../images/logo2.png">
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <a href="../pages/index.html"><li>HOME</li></a>
+                <a href="../pages/nutrition.html"><li>NUTRITION</li></a>
+                <a href="../pages/fitness.html"><li>FITNESS</li></a>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div id="food-items">
+                <h1>Grocery List</h1><br>
+                <p>Living better means feeling better and feeling better starts by incorporating better foods into your diet. Here is a list of the best foods to shop for to get started:</p><br>
+                <ul>
+                    <li>Chicken</li>
+                    <li>Salmon</li>
+                    <li>Eggs</li>
+                    <li>Almonds</li>
+                    <li>Almond Milk</li>
+                    <li>Oatmeal</li>
+                    <li>Berries</li>
+                    <li>Apples</li>
+                    <li>Bananas</li>
+                    <li>Almond Butter or Peanut Butter</li>
+                    <li>Sweet Potato</li>
+                    <li>Brown Rice/Quinoa</li>
+                    <li>Spinach</li>
+                    <li>Broccoli</li>
+                    <li>Asparagus</li>
+                    <li>Tomatoes</li>
+                    <li>Mushrooms</li>
+                    <li>Onions</li>
+                    <li>Bell Peppers</li>
+                    <li>Salsa</li>
+                </ul><br>
+                <p>With this grocery list, you'll have all you need to feel great. These foods are packed with nutrients to will help fuel you in the best way. Read more to find easy recipes that you can try!</p><br>
+        </div>
+
+        <aside id="sidebar">
+        
+        
+        </aside>
+        <div class="vertical-bar">
+            <div class="search-icon">
+            </div>
+            <div class="social-icons">
+                <i class="fa fa-heartbeat"></i>
+                <i class="fa fa-leaf"></i>
+                <i class="fa fa-cutlery"></i>
+                <i class="fa fa-sun-o"></i>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>

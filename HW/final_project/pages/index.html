@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Living Well</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hero">
+    <div class="nav-bar">
+        <div class="nav-logo">
+            <img src="../images/logo2.png">
+        </div>
+        <div class="nav-links" id="nav-links">
+            <i class="fa fa-close" onclick="closeMenu()"></i>
+            <ul>
+                <a href="../pages/index.html"><li>HOME</li></a>
+                <a href="../pages/nutrition.html"><li>NUTRITION</li></a>
+                <a href="../pages/fitness.html"><li>FITNESS</li></a>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Creating a healthy lifestyle<br>doesn't have to be difficult.<br><br><span>Here, you'll find tips and resources to help <br>you achieve greater wellness, the easy way.</span></h1>
+            <button type="button" class="btn">EXPLORE</button>
+        </div>
+        <div class="vertical-bar">
+            <div class="search-icon">
+            </div>
+            <div class="social-icons">
+                <i class="fa fa-heartbeat"></i>
+                <i class="fa fa-leaf"></i>
+                <i class="fa fa-cutlery"></i>
+                <i class="fa fa-sun-o"></i>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var show = document.getElementById("nav-links");
+        function showMenu(){
+            show.style.right = "0";
+        }
+        function closeMenu(){
+            show.style.right = "-200";
+        }
+    </script>
+    
+</body>
+</html>

@@ -6,7 +6,7 @@
 
 .hero {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(../images/background2.jpg);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -19,17 +19,21 @@
 }
 
 .nav-logo img {
-    width: 135px;
+    width: 100px;
 }
 
 .nav-links {
     flex: 1;
 }
 
+.nav-links ul {
+    margin-left: 50px;
+    display: inline;
+}
 .nav-links ul li {
     list-style: none;
     display: inline-block;
-    padding: 8px 25px;
+    padding: 40px 25px;
 }
 
 .nav-links ul a {
@@ -45,6 +49,7 @@
     background: pink;
     display: block;
     margin: auto;
+    transition: .5s;
 }
 
 .nav-links ul li:hover::after {
@@ -64,17 +69,18 @@
 }
 
 .banner-title {
-    margin: 80px 130px;
+    margin: 60px 35px;
     color: #fff;
+    float: right;
 }
 
 .banner-title h1 {
-    font-size: 60px;
+    font-size: 63px;
     margin-bottom: 30px;
 }
 
-span .banner-title h1 span {
-    color: yellow;
+.banner-title h1 span {
+    font-size: 36px;
 }
 
 .vertical-bar {
@@ -152,6 +158,38 @@ notification-img img {
     display: none;
 }
 
+#food-items {
+    padding-left: 160px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    
+    width:580px;
+    background-color: grey;
+    color: #fff;
+ }
+
+#food-items h1 {
+    font-size; 60px;
+    padding-top: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Styles for the Sidebar*/
+
+
+
+
+
+
 @media (max-width: 700px) {
     .vertical-bar {
         display: none;
@@ -200,3 +238,6 @@ notification-img img {
         margin-top: 10px;
     }
 }
+
+
+
