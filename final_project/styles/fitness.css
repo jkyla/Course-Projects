@@ -158,11 +158,144 @@ notification-img img {
     display: none;
 }
 
-.food-items h1 {
+/*styles for the columns*/
+
+#food-items {
+padding-left: 200px;
+padding-right: 40px;
+padding-bottom: 20px;
+float: left;
+width: 800px;
+background-color: #fff;
+}
+
+#food-items h1 {
+font-size: 45px;
+padding-top: 40px;
+font-weight: 300;
+}
+
+#food-items h2 {
+font-size: 25px;
+padding-top: 20px;
+font-weight: 200px;
+}
+
+#food-items p{
+font-size: 18px;
+padding-top:20px;
+line-height:25px;
+}
+
+#food-items h3 {
+    padding-top:
+}
+
+#food-items a:link, #food-items a:visited { 
+    color: #000;
+}
+
+#food-items a:hover, #food-items a:focus {
+    color: pink;
+    transition: 0.5s;
+}
+
+
+#food-items ol {
+    border: 2px solid pink;
+    box-shadow: 0px 8px 5px #888;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.6em;
+    width: 600px;
+    font-weight: 200;
+}
+
+
+#rightcol {
+float: left;
+padding-left: 60px;
+width: 580px;
+background-color: #000;
+color: #fff;
+height: 1190px;
+}
+
+#rightcol h2 {
+font-size: 25px;
+padding-top: 25px;
+font-weight: 400;
+}
+
+#rightcol h3 {
+font-size: 16px;
+padding-top: 25px;
+padding-bottom: 5px;
+font-weight: 200;
+}
+
+#rightcol h3 a {
+    color: #fff;
+}
+
+#rightcol p {
+font-size: 12px;
+}
+
+#rightcol img {
+    padding-left: 75px;
+    padding-top: 55px;
+    padding-bottom: 5px;
+}
+
+#rightcol a:link, #rightcol a:visited { 
+    color: #fff;
+}
+
+#rightcol a:hover, #rightcol a:focus {
+    color: pink;
+    transition: 0.5s;
+}
+
+#rightcol ol h2 {
+    padding-bottom: 10px;
     
 }
 
-@media (max-width: 700px) {
+#rightcol ol {
+    padding-bottom: 60px;
+    line-height: 1.5em;
+}
+
+aside {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*styles for responsive layout*/
+
+@media only screen and (max-width: 767px) {
     .vertical-bar {
         display: none;
     }
@@ -209,7 +342,16 @@ notification-img img {
         margin-left: 25px;
         margin-top: 10px;
     }
+    section {
+        float: none;
+        width: 95%;
+    }
 }
+
+
+
+
+
 
 
 

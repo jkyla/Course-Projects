@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url(../images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 40px 120px;
+}
+
+.nav-logo img {
+    width: 100px;
+}
+
+.nav-links {
+    flex: 1;
+}
+
+.nav-links ul {
+    margin-left: 50px;
+    display: inline;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 40px 25px;
+}
+
+.nav-links ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: .8125em; /* 13 / 16 = .8125*/
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: pink;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 0;
+    background: pink;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links .btn {
+    float: right;
+}
+
+.banner-title {
+    margin: 60px 35px;
+    color: #fff;
+    float: right;
+}
+
+.banner-title h1 {
+    font-size: 3.9375em; /* 63 / 16 */
+    margin-bottom: 30px;
+}
+
+.banner-title h1 span {
+    font-size: 2.25em; /* 36 / 16 */ 
+}
+
+.vertical-bar {
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.search-icon {
+    height: 60%;
+    width: 80px;
+}
+
+.search-icon .fa {
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 1.875em; /* 30 / 16 */
+    cursor: pointer;
+}
+
+.social-icons {
+    height: 35%;
+    width: 80px;
+    background: pink;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icons .fa {
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.notifications {
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: pink;
+    align-items: center;
+}
+
+.contents {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+notification-img img {
+    width: 100%;
+}
+
+.contents a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8125em; /* 13 / 16 */
+    margin: 0 10px;
+}
+
+.contents p {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.nav-bar .fa {
+    display: none;
+}
+
+/*styles for the columns*/
+
+#food-items {
+padding-left: 10.4166667%; /* 200 / 1920 */
+padding-right: 1.04166667%; /* 20 / 1920 */ 
+padding-bottom: 20px;
+float: left;
+width: 50%; /* 660 / 960   660/1920 */
+background-color: #fff;
+}
+
+#food-items h1 {
+font-size: 2.8125em; /* 45 / 16 */
+padding-top: 40px;
+font-weight: 300;
+}
+
+#food-items h2 {
+font-size: 1.5625em; /* 25 / 16 */ 
+padding-top: 20px;
+font-weight: 200px;
+}
+
+#food-items p{
+font-size: 1.125em; /* 18 / 16 */
+padding-top:15px;
+line-height:25px;
+}
+
+
+#food-items ul {
+    border: 2px solid pink;
+    box-shadow: 0px 8px 5px #888;
+    list-style-type:circle;
+    list-style-position: inside;
+    padding-left: .52083333%; /* 10 / 1920 */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.3em;
+    width: 23.4375%; /* 450 / 1920 */
+}
+
+#food-items h2 a{
+    font-weight: 400;
+}
+
+#food-items a:link, #food-items a:visited { 
+    color: #000;
+}
+
+#food-items a:hover, #food-items a:focus {
+    color: pink;
+    transition: 0.5s;
+}
+
+#food-items dl dt {
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+#food-items dl dd {
+    font-weight: 200;
+}
+
+#food-items img {
+    max-width: 100%;
+}
+
+
+
+
+#rightcol {
+float: left;
+padding-left: 60px; /* 60 /960 */
+width: 30%; /* 576 / 1920 */
+background-color: #000;
+color: #fff;
+height: auto;
+padding-right: 4.93%; 
+padding-bottom: 38px;
+}
+
+#rightcol h2 {
+font-size: 1.5625em; /* 25 / 16 */
+padding-top: 25px;
+font-weight: 400;
+}
+
+#rightcol h3 {
+font-size: 1em; /* 16 / 16 */
+padding-top: 25px;
+padding-bottom: 5px;
+font-weight: 200;
+}
+
+#rightcol h3 a {
+    color: #fff;
+}
+
+#rightcol p {
+font-size: .75em; /* 12 / 16 */ 
+}
+
+#rightcol img {
+    padding-left: 3.90625%; /* 75 / 1920 */
+    padding-top: 55px;
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+#rightcol .image2 {
+   padding-right: 1.04166667%; /* 20 / 1920 */ 
+}
+
+#rightcol a:link, #rightcol a:visited { 
+    color: #fff;
+}
+
+#rightcol a:hover, #rightcol a:focus {
+    color: pink;
+    transition: 0.5s;
+}
+
+#rightcol ol h2 {
+    padding-bottom: 10px;
+    
+}
+
+#rightcol ol {
+    padding-bottom: 60px;
+    line-height: 1.5em;
+}
+
+#rightcol h1 {
+    font-size: 1.875em; /* 30 / 16 */
+    padding-top: 50px;
+}
+
+aside {
+}
+
+
+@media only screen and (max-width: 959px) {
+    #food-items {
+        font-size: 135%;
+    }
+    #food-items h2, food-items h3 {
+        font-size: 120%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*styles for responsive layout*/
+
+@media only screen and (max-width: 767px) {
+    .vertical-bar {
+        display: none;
+    }
+    .banner-title {
+        margin: 80px 40px;
+    }
+    .banner-title h1 {
+        font-size: 50px;
+    }
+    .notifications {
+        width: 100%;
+    }
+    .nav-bar {
+        padding: 10px 30px;
+    }
+    .fa-bars {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa {
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links {
+        height: 100vh;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;
+    }
+    .nav-links ul a {
+        display: block;
+    }
+    .nav-links .btn {
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    
+    
+}
+
+@media only screen and (max-width: 479px) {
+    .hero {
+        font-size: 90%;
+    }
+}
+
